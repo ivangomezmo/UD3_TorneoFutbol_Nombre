@@ -5,14 +5,14 @@ public class MainTorneoFutbol {
 
     public static void main(String[] args) {
 
-        System.out.println("Accediendo a la base de datos del torneo de FP");
+        System.out.println("Accediendo a los jugadores del torneo");
         
         // Crear una instancia de la clase Equipo
         Equipo equipoMH = new Equipo("IES MH FC");
 
         // Agregar jugadores al equipoMH
         equipoMH.agregarJugador("Mario", 3);
-        equipoMH.agregarJugador("Pepe", 1);
+        equipoMH.agregarJugador("Pepe", 9);
         equipoMH.agregarJugador("Aitana", 8);
 
         // Mostrar la lista de jugadores del equipoMH
